@@ -1,0 +1,73 @@
+:root {
+    --primary-color: #bb772a;
+    --secondary-color: #5a5621;
+    --accent1: #1b2408;
+    --accent2: #ffeee2;
+}
+
+h1 {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    background-color: var(--accent2);
+    color: var(--primary-color);
+}
+
+h2 {
+    font-family: "Big Shoulders", sans-serif;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+p{
+    font-family: "Big Shoulders", sans-serif;
+    font-weight: 500;
+    color: var(--accent1);
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+* {
+    max-width: 700px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+}
+
+h1 {
+    position: absolute;
+    top: 10%;
+    width: 700px;
+    background: rgba(158, 144, 144, 0.836);
+    text-align: center;
+}
+ article {
+    position: absolute;
+    top:30%;
+    left:10%;
+    width: 600px;
+    display: block;
+    background-color: var(--secondary-color);
+    background: rgba(7, 39, 7, 0.5);
+    padding: 0;
+    margin: 2px;
+    font-size: small;
+ }
+
+article img {
+    float: right;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+article p{
+    color: var(--accent2);
+}
