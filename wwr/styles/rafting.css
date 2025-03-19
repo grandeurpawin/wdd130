@@ -63,9 +63,7 @@ h1 {
 
 article img {
     float: right;
-    margin-top: 25px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px 5px;
 }
 
 article p{
