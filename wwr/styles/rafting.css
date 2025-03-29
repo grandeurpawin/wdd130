@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #bb772a;
+    --primary-color: #b6d0f1;
     --secondary-color: #5a5621;
     --accent1: #1b2408;
-    --accent2: #ffeee2;
+    --accent2: #e2e9ff;
 }
 
 h1 {
@@ -30,7 +30,7 @@ a{
 }
 
 * {
-    max-width: 700px;
+    max-width: 850px;
 }
 
 .hero {
@@ -39,23 +39,28 @@ a{
 
 .hero img {
     display: block;
+    border: solid rgba(132, 127, 206, 0.329);
+    margin-bottom: 10px;
 }
 
 h1 {
     position: absolute;
     top: 10%;
-    width: 700px;
-    background: rgba(158, 144, 144, 0.836);
+    left: 2px;
+    width: 848px;
+    background: rgba(42, 35, 133, 0.329);
     text-align: center;
+
 }
  article {
     position: absolute;
     top:30%;
     left:10%;
-    width: 600px;
+    width: 700px;
     display: block;
     background-color: var(--secondary-color);
-    background: rgba(7, 39, 7, 0.5);
+    background: rgba(27, 59, 27, 0.5);
+    border: solid rgba(148, 180, 173, 0.336);
     padding: 0;
     margin: 2px;
     font-size: small;
@@ -68,4 +73,83 @@ article img {
 
 article p{
     color: var(--accent2);
+}
+
+header {
+    display: grid;
+    background-color: var(--accent1);
+    background: rgba(7, 39, 7, 0.5);
+    width: 850px;
+    height: 100px;
+    grid-template-columns: 3fr 4fr;
+    align-items: center;
+    margin-bottom: 10px;
+    border: solid rgba(148, 180, 173, 0.336);
+}
+
+header img{
+    width: 120px;
+    height: 100px;
+    position: relative;
+    left: 90px;
+}
+
+header nav {
+    display: flex;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: var(--secondary-color);
+    background: rgba(157, 177, 150, 0.123);
+    padding: 10px;
+    border: solid rgba(165, 212, 187, 0.055);
+    justify-content: space-around;
+    width: 400px;
+    height: auto;
+}
+
+section {
+    display: flex;
+    width: 850px;
+    height: auto;
+    border: solid rgba(121, 163, 141, 0.096);
+}
+ section h2 {
+    text-align: center;
+    position: relative;
+ }
+
+figure img {
+ width: 100px;
+}
+
+footer {
+    display: grid;
+    place-items: center;
+    background-color: var(--accent1);
+    background: rgba(7, 39, 7, 0.5);
+    width: 850px;
+    grid-template-columns: 7fr 3fr;
+    align-items: center;
+    margin-bottom: 10px;
+    border: solid rgba(148, 180, 173, 0.336);
+}
+
+footer nav {
+    display: flex;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: var(--secondary-color);
+    background: rgba(157, 177, 150, 0.123);
+    padding: 10px;
+    border: solid rgba(165, 212, 187, 0.055);
+    width: 200px;
+    justify-content: space-around;
+    height: auto;
+}
+
+footer img {
+    width: 40px;
+    height: auto;
 }
