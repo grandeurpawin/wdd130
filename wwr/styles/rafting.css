@@ -109,19 +109,27 @@ header nav {
 }
 
 section {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
     width: 850px;
     height: auto;
     border: solid rgba(121, 163, 141, 0.096);
 }
+
  section h2 {
     text-align: center;
-    position: relative;
+    grid-column: 1/6;
  }
 
-figure img {
- width: 100px;
-}
+ figure img {
+    width: 95px;
+    height: auto;
+ }
+
+ figure figcaption {
+    text-align: center;
+ }
 
 footer {
     display: grid;
