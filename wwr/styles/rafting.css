@@ -19,11 +19,11 @@ h2 {
 }
 
 p{
-    font-family: "Big Shoulders", sans-serif;
     font-weight: 500;
     color: var(--accent1);
-    padding: 20px;
+    padding: 10px;;
 }
+
 
 a{
     text-decoration: none;
@@ -33,7 +33,7 @@ a{
     max-width: 850px;
 }
 
-.hero {
+/* .hero {
     position: relative;
 }
 
@@ -41,18 +41,19 @@ a{
     display: block;
     border: solid rgba(132, 127, 206, 0.329);
     margin-bottom: 10px;
-}
+} */
 
 h1 {
     position: absolute;
-    top: 10%;
-    left: 2px;
-    width: 848px;
-    background: rgba(42, 35, 133, 0.329);
+    top: 11%;
+    /* left: 8px; */
+    width: 850px;
+    background: rgba(84, 82, 112, 0.329);
     text-align: center;
+    color: rgba(7, 39, 7, 0.5);
 
 }
- article {
+ /* article {
     position: absolute;
     top:30%;
     left:10%;
@@ -69,11 +70,11 @@ h1 {
 article img {
     float: right;
     margin: 10px;
-}
+} */
 
-article p{
+/* article p{
     color: var(--accent2);
-}
+} */
 
 header {
     display: grid;
@@ -110,7 +111,7 @@ header nav {
 
 section {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     width: 850px;
     height: auto;
@@ -123,7 +124,7 @@ section {
  }
 
  figure img {
-    width: 95px;
+    width: 200px;
     height: auto;
  }
 
@@ -161,3 +162,95 @@ footer img {
     width: 40px;
     height: auto;
 }
+
+.map {
+    margin: 10px 0 10px 0;
+}
+
+
+form {
+    width: 850px;
+    margin: 10px 0 10px 0;
+    border: 1px solid rgb (0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color:#eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    border: 1px solid rgb (0 0 0 / 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 1rem;
+    color: navy;
+    font-size: 1.2em;
+}
+
+label, input, button, select, textarea {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+label[for="feedback"] {
+text-align: left;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height:20px;
+    vertical-align: left;
+}
+
+button {
+    padding:.5rem;
+    border: none;
+    margin: 1rem 1rem 1rem 330px;
+    font-size: 1rem;
+    color: #eee;
+    background-color: navy;
+    border-radius: 0.5rem;
+    width: 120px;
+    height: 40px;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 4fr;
+    margin: 1rem;  
+}
+
+.column2 {
+grid-template-columns: 1fr 2fr;
+}
+
+.contact {
+    border: solid rgba(166, 226, 213, 0.329);
+    margin-top: 60px;
+    background-color: rgba(148, 180, 173, 0.336);
+    font-family: 'Times New Roman', Times, serif;
+    width: 850px;
+}
+
