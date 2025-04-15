@@ -65,11 +65,13 @@ h1 {
     padding: 0;
     margin: 2px;
     font-size: small;
+    border-radius: 10px;
  }
 
 article img {
     float: right;
     margin: 10px;
+    border-radius: 10px;
 } 
 
 article p{
@@ -126,6 +128,7 @@ section {
  figure img {
     width: 100px;
     height: auto;
+    border-radius: 10px;
  }
 
  figure figcaption {
