@@ -345,6 +345,7 @@ width: 850px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background: #9aad9c;
+    border: solid rgba(148, 180, 173, 0.336);
     margin-bottom: 10px;
 }
 
@@ -380,6 +381,7 @@ table {
     font-style: italic;
     margin-bottom: 10px;
     padding: 5px;
+    width: 850px;
     background-color: #6c8167;
     color: var(--accent2);
   }
