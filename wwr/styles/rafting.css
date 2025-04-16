@@ -18,14 +18,14 @@ h2 {
     color: var(--secondary-color);
 }
 
-p{
+p {
     font-weight: 500;
     color: var(--accent1);
     padding: 10px;;
 }
 
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -53,6 +53,7 @@ h1 {
     color: var(--secondary-color);
 
 }
+
  article {
     position: absolute;
     top:30%;
@@ -91,7 +92,7 @@ header {
     border: solid rgba(148, 180, 173, 0.336);
 }
 
-header img{
+header img {
     width: 120px;
     height: 100px;
     position: relative;
@@ -128,7 +129,7 @@ section img {
     width: 300px;
     height: auto;
     border-radius: 10px;
-    }
+}
  section h2 {
     text-align: center;
     grid-column: 1/6;
@@ -190,6 +191,7 @@ footer img {
     height: auto;
     border-radius: 10px;
 }
+
 .employee figcaption {
     text-align: center;
     color: var(--accent1);
@@ -197,20 +199,13 @@ footer img {
 
 form {
     width: 850px;
-    margin: 10px 0 10px 0;
-    border: 1px solid rgb (0 0 0 / 0.1);
-    border-radius: 0.5rem;
-    background-color:#9aad9c;
-    display: grid;
-    color: var(--secondary-color);
+    margin: 10px 0 10px 0;   
 }
 
 fieldset {
     display: grid;
     grid-gap: 0.5rem;
-    margin: 1rem;
-    border: 1px solid rgb (0 0 0 / 0.2);
-    padding: 1rem;
+    margin: 1rem; 
 }
 
 legend {
@@ -240,7 +235,6 @@ input, select, textarea {
 input[type="checkbox"] {
     width: 20px;
     height:20px;
-    vertical-align: left;
 }
 
 button {
@@ -266,7 +260,7 @@ button:hover {
 
 .column1 {
     grid-template-columns: 1fr 11fr;
-    margin: 1rem;  
+    margin: 1rem;
 }
 
 .column2 {
@@ -303,4 +297,44 @@ width: 850px;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     font-size: 20px;
+}
+
+
+.call {
+    width: 850px;
+    display: grid;
+    justify-content: center;
+    
+}
+
+.call p {
+    border-radius: 10px;
+    width: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: #c2bf9c;
+    color: var(--accent1);
+    padding: 100px;
+}
+
+.purpose {
+    width: 850px;
+    display: flex;
+    justify-content: center;
+    background-color: #c2bf9c;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.purpose img {
+    width: 350px;
+}
+
+.purpose figcaption {
+    background-color: #9aad9c;
+    color: var(--accent1);
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
 }
