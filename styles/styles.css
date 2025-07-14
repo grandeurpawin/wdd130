@@ -41,6 +41,7 @@ main {
 }
 
 aside {
+    position: relative;
     width: 840px;
     margin: 0;
     border: var(--border);
@@ -50,9 +51,9 @@ aside {
 }
 
 aside h2 {
-    position: relative;
-    top: 47px;
-    left: 10px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
     color: white;
 }
 
