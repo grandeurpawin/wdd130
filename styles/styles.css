@@ -9,6 +9,8 @@
 }
 
 nav {
+    display: flex;
+    justify-content: space-evenly;
     background-color: darkblue;
     padding: 10px;
 }
@@ -17,10 +19,24 @@ nav a {
     color: white;
     display: block;
     padding: 10px;
+    text-decoration: none;
+    
 }
+
+nav a:hover {
+    background-color: yellow;
+    color: darkblue;
+    font-size: large;
+    width: 150px;
+    text-align: center;
+}
+
 
 h1 {
     color: darkblue;
+    padding: 20px 0;
+    text-align: center;
+
 }
 
  main img {
@@ -32,8 +48,12 @@ h1 {
     float: right;
 }
 
-p {
-    padding: 0;
+ main p {
+    width: 840px;
+    padding: 20px ;
+    background: darkblue;
+    color: #fff;
+    box-shadow: rgb(179, 22, 22) 0 0 20px;
 }
 
 main {
@@ -48,6 +68,7 @@ aside {
     padding: 10px;
     background-color: #eee;
     color: black;
+    box-shadow: darkblue 0 0 20px;
 }
 
 aside h2 {
@@ -62,16 +83,28 @@ aside img {
     height: auto;
 }
 
+aside p {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: red;
+    color: #eee;
+    box-shadow: yellow 0 0 20px;
+}
+
 footer {
+    padding: 20px;
     margin-top: 10px;
     border-top: var(--border);
     text-align: center;
+    background-color: darkblue;
+    color: #fff;
 }
 
 /* Class Selectors */
 .box {
     margin: 10px;
     border: var(--border);
+    margin-top: 20px;
     padding: 10px;
     background-color: #eee;
 }
@@ -79,5 +112,19 @@ footer {
 ul {
     list-style-type: none;
     width: 840px;
+    box-shadow: yellow 0 0 20px;
 }
+
+.box a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.box a:hover {
+    background-color: blue;
+    color: white;
+    font-size: large;
+    width: 200px;
+}
+
 
