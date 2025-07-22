@@ -8,6 +8,11 @@
     box-sizing: border-box;
 }
 
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 nav {
     display: flex;
     justify-content: space-evenly;
@@ -32,11 +37,10 @@ nav a:hover {
 }
 
 
-h1 {
+ h1 {
     color: darkblue;
     padding: 20px 0;
     text-align: center;
-
 }
 
  main img {
@@ -49,7 +53,6 @@ h1 {
 }
 
  main p {
-    width: 840px;
     padding: 20px ;
     background: darkblue;
     color: #fff;
@@ -94,7 +97,6 @@ aside p {
 footer {
     padding: 20px;
     margin-top: 10px;
-    border-top: var(--border);
     text-align: center;
     background-color: darkblue;
     color: #fff;
@@ -111,7 +113,6 @@ footer {
 
 ul {
     list-style-type: none;
-    width: 840px;
     box-shadow: yellow 0 0 20px;
 }
 
@@ -126,5 +127,19 @@ ul {
     font-size: large;
     width: 200px;
 }
+ .grid {
+    display: grid;
+    align-items: center;
+ }
 
+ main {
+    grid-column: 2/3;
+    margin: 1rem;
+ }
 
+ aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+ }
