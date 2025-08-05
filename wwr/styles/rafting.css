@@ -47,7 +47,7 @@ nav, p, section, article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -118,18 +118,18 @@ nav a {
     opacity: 0.9;
 }
 
-section h2 {
+.history h2, .adventures h2 {
     text-align: center;
     padding-bottom: 10px;
     grid-column: 1/-1;
 }
 
-figure img {
+.rafting img {
     width: 150px;
     height: 150px;
 }
 
-figcaption {
+.rafting figcaption {
     text-align: center;
 }
 
@@ -150,4 +150,129 @@ footer {
  .socialmedia {
     position: absolute;
     right: 0;
+ }
+ .guides h1 {
+    text-align: center;
+    padding: 20px;
+    color: var(--accent2-color);
+ }
+
+ .information {
+    background-color: var(--primary-color);
+ }
+ 
+ .information h2 {
+    padding: 20px 20px 0;
+    color: var(--secondary-color);
+ }
+
+ .information p {
+    font-style: italic;
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+ }
+
+ .map {
+    text-align: center;
+    background-color: aquamarine;
+ }
+
+ .employees {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 5px;
+ }
+
+ .employees h2 {
+    grid-column: -1/1;
+ }
+
+ .employee {
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+ }
+ 
+form {
+    padding: 1rem;
+    background-color: #eee;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+form h2 {
+    color: var(--accent2-color);
+}
+
+fieldset {
+    display: grid;
+    gap: 0.5rem;
+    padding: 10px;
+}
+
+legend {
+    font-size: 1.2rem;
+    padding:10px 0;
+    color: var(--accent2-color);
+}
+
+label {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    color: var(--accent2-color);
+}
+
+input, textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+input[type="radio"] {
+    height: 20px;
+}
+
+input[type="checkbox"] {
+    height: 20px;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 1fr 3fr;
+}
+
+.column2 {
+    grid-template-columns: 1fr 7fr;
+}
+ button {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: .75rem;
+    border: none;
+    border-radius: 5px;
+    margin-left: 3px;
+    font-style: italic;
+    font-size: 1rem;
+    width: 800px;
+ }
+
+ button:hover {
+    background-color: var(--accent1-color);
+    font-size: 1.2rem;
+ }
+
+ .wireframe {
+    position: relative;
+ }
+
+ .wireframe p {
+    position: absolute;
+    width: 200px;
+    right: 300px;
  }
