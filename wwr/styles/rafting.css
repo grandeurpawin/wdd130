@@ -276,3 +276,81 @@ input[type="checkbox"] {
     width: 200px;
     right: 300px;
  }
+
+ .hero1 {
+    position: relative;
+    margin-bottom: 10px;
+ }
+
+ .hero1 img {
+    display: block;
+    width: 100%;
+    height: auto;
+ }
+
+ .hero1 p {
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    width: 400px;
+    padding: 50px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    font-style: italic;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+ }
+
+ .call-to-action {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 5px;
+ }
+
+    .call-to-action p {
+        text-align: center;
+        padding: 20px;
+        font-size: 1.2em;
+        font-style: italic;
+    }
+
+    .call-to-action a {
+        display: inline-block;
+        padding: 10px;
+        color: var(--secondary-color);
+        text-decoration: none;
+    }
+
+    .call-to-action a:hover {
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
+        font-weight: bold;
+    }
+
+    .purpose-and-offerings {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .purpose-and-offerings figure {
+        text-align: center;
+        background-color: var(--primary-color);
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+
+    .purpose-and-offerings img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+
+    .purpose-and-offerings figcaption {
+        font-weight: bold;
+        color: var(--secondary-color);
+        padding: 0 10px;
+        margin-bottom: 10px;
+    }
