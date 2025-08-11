@@ -213,12 +213,14 @@ fieldset {
 }
 
 legend {
+    font-family: var(--heading-font);
     font-size: 1.2rem;
     padding:10px 0;
     color: var(--accent2-color);
 }
 
 label {
+    font-family: var(--body-font);
     display: flex;
     align-items: center;
     padding: 5px;
@@ -257,6 +259,7 @@ input[type="checkbox"] {
     border: none;
     border-radius: 5px;
     margin-left: 3px;
+    font-family: var(--heading-font);
     font-style: italic;
     font-size: 1rem;
     width: 800px;
@@ -308,49 +311,134 @@ input[type="checkbox"] {
     border-radius: 5px;
  }
 
-    .call-to-action p {
-        text-align: center;
-        padding: 20px;
-        font-size: 1.2em;
-        font-style: italic;
-    }
+.call-to-action p {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+    font-style: italic;
+}
 
-    .call-to-action a {
-        display: inline-block;
-        padding: 10px;
-        color: var(--secondary-color);
-        text-decoration: none;
-    }
+.call-to-action a {
+    display: inline-block;
+    padding: 10px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-weight: bold;
+    text-decoration: none;
+}
 
-    .call-to-action a:hover {
-        background-color: var(--secondary-color);
-        color: var(--primary-color);
-        font-weight: bold;
-    }
+.call-to-action a:hover {
+    width: 200px;
+    font-size: 1.5rem;
+    background-color: var(--accent1-color);
+    border-radius: 50%;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
 
-    .purpose-and-offerings {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-    }
+.purpose-and-offerings {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
 
-    .purpose-and-offerings figure {
-        text-align: center;
-        background-color: var(--primary-color);
-        margin-bottom: 10px;
-        border-radius: 5px;
-    }
+.purpose-and-offerings figure {
+    text-align: center;
+    background-color: var(--primary-color);
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
 
-    .purpose-and-offerings img {
-        width: 100%;
-        height: auto;
-        margin-bottom: 10px;
-        border-radius: 5px;
-    }
+.purpose-and-offerings img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
 
-    .purpose-and-offerings figcaption {
-        font-weight: bold;
-        color: var(--secondary-color);
-        padding: 0 10px;
-        margin-bottom: 10px;
-    }
+.purpose-and-offerings figcaption {
+    font-weight: bold;
+    color: var(--secondary-color);
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+.trips {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.trips h2 {
+    text-align: center;
+    grid-column: 1/-1;
+    padding: 10px ;
+    font-size: 1.5rem;
+}
+
+.trips a {
+    text-decoration: none;
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+}
+
+.trips a:hover {
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.trips figure {
+    text-align: center;
+    margin: 0 10px 10px;
+    padding: 10px;
+
+}
+.trips img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.trips figcaption {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family:var(--body-font);
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    width: 840px;
+    height: 500px;
+  }
+  
+  caption {
+    font-family: var(--heading-font);
+    font-size: 2rem;
+    font-style: italic;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 840px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  
+  thead th {
+      background-color: var(--primary-color);
+      color: #eee;
+  }
+  
+  th,
+  td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+    text-align: center;
+  }
